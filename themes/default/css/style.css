@@ -1,0 +1,189 @@
+@font-face{
+	font-family: Nima;
+	src:url(../fonts/Vazir-Regular.woff2);
+}
+@font-face{
+	font-family: Nima;
+	font-weight: bold;
+	src:url(../fonts/Vazir-bold.woff2);
+}
+
+*{
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+html{
+	direction: rtl;
+	font-family: Nima, Tahoma;
+	font-size: 15px;
+}
+body{
+	background-image: url(../../../images/BackGround.jpeg);
+	background-attachment: fixed;
+	direction: rtl;
+	font-family: Nima, Tahoma;
+	font-size: 15px;
+}
+a:hover{
+	color: red;
+	font-weight: bold;
+}
+#fotter{
+	direction:ltr; text-align:center; color:black; letter-spacing: 4px; text-shadow: 1px 1px 1px black;
+}
+#gallery{
+	text-align: center;
+}
+#gallery div{
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	border: 4px red; dotted;
+	filter: grayscale(80%);
+	transition: 0.3s;
+	background-position: center center;
+	display: inline-block;
+}
+#gallery div:hover{
+	filter: grayscale(0%);
+	transform: rotate(360deg);
+	border-color: yellow;
+	background-size: auto 150;
+}
+
+
+/* Structure */
+main{
+	width: 950px;
+	min-height: 1000px;
+	border: 10px solid black;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: white;
+	margin-top: 50px;
+	border-image: url(../images/border.jpg) 30 stretch;
+	background-clip: padding-box;
+}
+header{
+	text-align: center;
+	min-height: 150px;
+	margin-bottom: 10px;
+	background-color: #FFFFFF;
+}
+aside{
+	width: 200px;
+	border: 1px solid black;
+	float: right;
+}
+article{
+	width: 700px;
+	min-height: 720px;
+	border: 1px solid black;
+	float: right;
+	margin-right: 10px;
+}
+footer{
+	min-height: 100px;
+	border: 1px solid black;
+	margin-top: 10px;
+	background: linear-gradient(#FFFFFF,#FFFFFF,#FFFFFF);
+}
+
+#main_menu{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#main_menu li{
+	margin: 2px;
+	background: #aca2b3;
+}
+#main_menu li:hover{
+	background-color: #e86499;
+	color: #eded09;
+}
+#main_menu li a{
+	width: 100%;
+	height: 100%;
+	display: black;
+	padding: 7px;
+	color: white;
+	transform: 0.2s;
+	color: black;
+}
+#main_menu li a:hover{
+	color: red;
+}
+
+/*Dokme*/
+
+}
+#upd{
+	position: fixed;
+	right: 20px;
+	bottom: 120px;
+}
+#downd{
+	position: fixed;
+	right: 20px;
+	bottom: 50px;
+}
+
+
+#logo{
+	animation: logoplay 2s;
+}
+
+@keyframes logoplay{
+	from{
+	 margin-bottom: 300px;
+	 opacity: 0;
+	}
+	to{
+		margin-bottom: 0;
+		opacity: 1;
+	}
+}
+@keyframes navplay{
+	from{
+		margin-top: -50px;
+		opacity: 0;
+	}
+	to{
+		margin-top: 0;
+		opacity: 1;
+	}
+}
+
+
+
+
+#main{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#main li{
+	margin: 2px;
+	background: linear-gradient(#22c1c3,#fdbb2d);
+}
+#main li:hover{
+	background-color: #7BFF00;
+	color: #182C61;
+}
+#main li a{
+	width: 100%;
+	height: 100%;
+	display: black;
+	padding: 7px;
+	color: white;
+	transform: 0.2s;
+	color: black;
+}
+#main li a:hover{
+	color: red;
+}
+
+
